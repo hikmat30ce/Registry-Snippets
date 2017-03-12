@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Show preview of desktop if cursor moves over "Show Desktop" in task bar.
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"DisablePreviewDesktop"=dword:00000000
