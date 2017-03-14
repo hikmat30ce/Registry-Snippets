@@ -4,4 +4,4 @@ Windows Registry Editor Version 5.00
 "AutoAdminLogon"="1"
 "DefaultUserName"="YOUUSERNAME"
 "DefaultPassword"="YOURPASSWORD"
-"DefaultDomainName"="%COMPUTERNAME%"
+"DefaultDomainName"="THECOMPUTERNAME"
