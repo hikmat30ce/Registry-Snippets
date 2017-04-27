@@ -5,12 +5,12 @@ Windows Registry Editor Version 5.00
 "1"="de.pool.ntp.org"
 "2"="time.windows.com"
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\NtpClient]
-"Enabled"=dword:00000001
-"InputProvider"=dword:00000001
-; Alle 8 Stunden die Zeit abgleichen
-"SpecialPollInterval"=dword:0000a8c0
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Parameters]
 "NtpServer"="de.pool.ntp.org,0x9"
 "Type"="NTP"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\NtpClient]
+"Enabled"=dword:00000001
+"InputProvider"=dword:00000001
+; Sync time every 8 hours
+"SpecialPollInterval"=dword:0000a8c0
