@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{6BDD1FC6-810F-11D0-BEC7-08002BE2092F}\0000\Settings]
+"LVUVC_LEDControl"=dword:00000005
+; 0 = Off
+; 5 = Auto (default)
+; 8 = On
