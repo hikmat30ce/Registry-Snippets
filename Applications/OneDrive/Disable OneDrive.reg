@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Onedrive]
+"DisableLibrariesDefaultSaveToOneDrive"=dword:00000001
+"DisableFileSync"=dword:00000001
+"DisableMeteredNetworkFileSync"=dword:00000001
+"DisableFileSyncNGSC"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\Onedrive]
+"DisableLibrariesDefaultSaveToOneDrive"=dword:00000001
+"DisableFileSync"=dword:00000001
+"DisableMeteredNetworkFileSync"=dword:00000001
+"DisableFileSyncNGSC"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\OneDrive]
+"DisablePersonalSync"=dword:00000001
